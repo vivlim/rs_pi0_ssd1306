@@ -1,0 +1,13 @@
+[package]
+name = "pi0_ssd1306"
+version = "0.1.0"
+authors = ["vivlim"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-graphics = "0.6.0-alpha.2"
+rppal = { version = "0.11.3", features = ["hal"] }
+ssd1306 = { version = "0.3.0-alpha.2", features = ["graphics"] }
+failure = "0.1.6"
